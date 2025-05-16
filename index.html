@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Atletenu</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Georgia', serif;
+      background: url("atletenu-web.png") no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 4em;
+      margin-bottom: 1em;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 2em;
+    }
+
+    .btn {
+      padding: 1em 2em;
+      font-size: 1.5em;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.7);
+      border: 2px solid white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Atletenu</h1>
+    <div class="buttons">
+      <a href="https://it.atletenu.com" class="btn">🇮🇹 Italiano</a>
+      <a href="https://en.atletenu.com" class="btn">🇬🇧 English</a>
+    </div>
+  </div>
+</body>
+</html>
+
